@@ -8,9 +8,8 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.animation import FuncAnimation
 
-API_KEY = os.getenv('API_KEY', 'AIzaSyA-oSvzzAPgHsXMFowFCmHn-4nMhqtvoS0')
-API_SECRET = os.getenv('API_SECRET', 'AIzaSyA-bJbgWuQ1fiIl32E2I2Q2eJVaI261mkw')
-
+API_KEY = os.getenv('API_KEY', 'YOURAPIKEY')
+API_SECRET = os.getenv('API_SECRET', 'YOURSECRETAPI')
 def log_price(symbol, price):
     """
     Logs the fetched price along with the timestamp to a file.
